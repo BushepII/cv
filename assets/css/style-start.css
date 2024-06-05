@@ -9,18 +9,51 @@
     font-family: "Raleway", "sans-serif";
 }
 
-.container{
+body{
+    min-height: 100vh;
+    margin: 0;
+}
+
+header{
+    width: 100%;
+}
+
+main{
+    display: flex;
+    overflow: hidden;
+}
+
+footer{
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
     width: 1160px;
+    min-height: 100vh;
+    margin: 0em auto;
+    background-color: #782221;
     justify-content: center;
     align-items: center;
-    margin: 0px auto;
-    padding: 0px;
-    background-color: #782221;
 }
 
 h1, h2, h3, h4, h5, h6{
     font-family: "Lato", "serif";
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+p, ul{
+    font-weight: 700;
 }
