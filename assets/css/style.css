@@ -82,20 +82,39 @@
 .main{
     width: 69%;
     padding-left: 2em;
-    padding-left: 2em;
+    padding-right: 2em;
     background-color: white;
     border-right: 0.05em solid black;
 }
 
-.main__section-title{
-    width: 95%;
-    background-color: #dbc2a4;
-    border-left: 0.3em solid #782221;
-    padding-left: 0.5em;
+.main__section{
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
 }
 
-.main__section:hover{
+.main__section-title{
+    width: 100%;
+    background-color: #dbc2a4;
+    border-left: 0.3em solid #782221;
+    text-indent: 0.2em;
+}
+.main__section-subtitle{
+    margin-top: 0em;
+}
+
+.main__section-list{
+    margin-bottom: 0em;
+}
+
+.main__div--hover{
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.main__div--hover:hover{
     border-right: 0.3em solid #782221;
+
 }
 
 /*footer section*/
